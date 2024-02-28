@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Tabel Header C++</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Contoh Tabel Header C++</h2>
+    <table>
+        <tr>
+            <th>Header</th>
+            <th>Sintaks</th>
+            <th>Pengertian</th>
+        </tr>
+        <tr>
+            <td>cctype</td>
+            <td>#include &lt;cctype&gt;</td>
+            <td>Menyediakan fungsi-fungsi karakter, seperti isalpha, isdigit, toupper, dan tolower.</td>
+        </tr>
+        <tr>
+            <td>clocale</td>
+            <td>#include &lt;clocale&gt;</td>
+            <td>Menyediakan fasilitas untuk bekerja dengan pengaturan lokal (locale).</td>
+        </tr>
+        <tr>
+            <td>csetjmp</td>
+            <td>#include &lt;csetjmp&gt;</td>
+            <td>Menyediakan fasilitas untuk bekerja dengan titik-singgah (setjmp).</td>
+        </tr>
+        <tr>
+            <td>csignal</td>
+            <td>#include &lt;csignal&gt;</td>
+            <td>Menyediakan fasilitas untuk bekerja dengan sinyal (signal) dalam program.</td>
+        </tr>
+        <tr>
+            <td>cstddef</td>
+            <td>#include &lt;cstddef&gt;</td>
+            <td>Menyediakan definisi-definisi umum dan konstanta-konstanta.</td>
+        </tr>
+        <tr>
+            <td>cstring</td>
+            <td>#include &lt;cstring&gt;</td>
+            <td>Menyediakan fungsi-fungsi untuk bekerja dengan string dalam gaya C.</td>
+        </tr>
+        <tr>
+            <td>cwchar</td>
+            <td>#include &lt;cwchar&gt;</td>
+            <td>Menyediakan fasilitas untuk bekerja dengan string lebar (wide string).</td>
+        </tr>
+        <tr>
+            <td>cwctype</td>
+            <td>#include &lt;cwctype&gt;</td>
+            <td>Menyediakan fungsi-fungsi karakter lebar (wide character).</td>
+        </tr>
+        <tr>
+            <td>type_traits</td>
+            <td>#include &lt;type_traits&gt;</td>
+            <td>Menyediakan fasilitas untuk menguji sifat-sifat tipe.</td>
+        </tr>
+        <tr>
+            <td>tuple</td>
+            <td>#include &lt;tuple&gt;</td>
+            <td>Menyediakan kelas tuple dan fungsi-fungsi terkait untuk bekerja dengan tuple.</td>
+        </tr>
+        <tr>
+            <td>queue</td>
+            <td>#include &lt;queue&gt;</td>
+            <td>Menyediakan kelas queue untuk struktur data antrian (queue).</td>
+        </tr>
+        <tr>
+            <td>stack</td>
+            <td>#include &lt;stack&gt;</td>
+            <td>Menyediakan kelas stack untuk struktur data tumpukan (stack).</td>
+        </tr>
+        <tr>
+            <td>deque</td>
+            <td>#include &lt;deque&gt;</td>
+            <td>Menyediakan kelas deque untuk struktur data deque.</td>
+        </tr>
+        <tr>
+            <td>list</td>
+            <td>#include &lt;list&gt;</td>
+            <td>Menyediakan kelas list untuk struktur data linked list.</td>
+        </tr>
+        <tr>
+            <td>map</td>
+            <td>#include &lt;map&gt;</td>
+            <td>Menyediakan kelas map untuk struktur data map (associative array).</td>
+        </tr>
+        <tr>
+            <td>unordered_map</td>
+            <td>#include &lt;unordered_map&gt;</td>
+            <td>Menyediakan kelas unordered_map untuk struktur data hash map (associative array tanpa urutan).</td>
+        </tr>
+        <tr>
+            <td>set</td>
+            <td>#include &lt;set&gt;</td>
+            <td>Menyediakan kelas set untuk struktur data set (himmapan himpunan).</td>
+        </tr>
+        <tr>
+            <td>unordered_set</td>
+            <td>#include &lt;unordered_set&gt;</td>
+            <td>Menyediakan kelas unordered_set untuk struktur data hash set (himmapan himpunan tanpa urutan).</td>
+        </tr>
+        <tr>
+            <td>bitset</td>
+            <td>#include &lt;bitset&gt;</td>
+            <td>Menyediakan kelas bitset untuk representasi bit.</td>
+        </tr>
+        <tr>
+            <td>functional</td>
+            <td>#include &lt;functional&gt;</td>
+            <td>Menyediakan fungsi-fungsi objek dan kelas-kelas fungsi untuk pemrograman fungsional.</td>
+        </tr>
+        <tr>
+            <td>limits</td>
+            <td>#include &lt;limits&gt;</td>
+            <td>Menyediakan informasi tentang batas-batas tipe data.</td>
+        </tr>
+        <tr>
+            <td>memory</td>
+            <td>#include &lt;memory&gt;</td>
+            <td>Menyediakan fasilitas untuk alokasi dan dealokasi memori secara dinamis.</td>
+        </tr>
+        <tr>
+            <td>regex</td>
+            <td>#include &lt;regex&gt;</td>
+            <td>Menyediakan fasilitas untuk bekerja dengan ekspresi reguler (regular expressions).</td>
+        </tr>
+        <tr>
+            <td>typeindex</td>
+            <td>#include &lt;typeindex&gt;</td>
+            <td>Menyediakan fasilitas untuk mengidentifikasi tipe data pada waktu kompilasi.</td>
+        </tr>
+        <tr>
+            <td>typeinfo</td>
+            <td>#include &lt;typeinfo&gt;</td>
+<td>Menyediakan fasilitas untuk informasi tipe data pada waktu runtime.</td>
+</tr>
+<tr>
+<td>atomic</td>
+<td>#include &lt;atomic&gt;</td>
+<td>Menyediakan fasilitas untuk operasi-operasi atomik.</td>
+</tr>
+<tr>
+<td>mutex</td>
+<td>#include &lt;mutex&gt;</td>
+<td>Menyediakan fasilitas untuk penguncian dan pembukaan kunci sumber daya dalam multithreading.</td>
+</tr>
+<tr>
+<td>thread</td>
+<td>#include &lt;thread&gt;</td>
+<td>Menyediakan fasilitas untuk pembuatan dan pengendalian thread dalam multithreading.</td>
+</tr>
+<tr>
+<td>future</td>
+<td>#include &lt;future&gt;</td>
+<td>Menyediakan fasilitas untuk mengelola hasil operasi asinkron (future) dalam multithreading.</td>
+</tr>
+<tr>
+<td>condition_variable</td>
+<td>#include &lt;condition_variable&gt;</td>
+<td>Menyediakan fasilitas untuk menunggu dan memberi sinyal pada kondisi tertentu dalam multithreading.</td>
+</tr>
+<tr>
+<td>random</td>
+<td>#include &lt;random&gt;</td>
+<td>Menyediakan fasilitas untuk generasi angka acak.</td>
+</tr>
+<tr>
+<td>filesystem</td>
+<td>#include &lt;filesystem&gt;</td>
+<td>Menyediakan fasilitas untuk berinteraksi dengan sistem file.</td>
+</tr>
+<tr>
+<td>numeric</td>
+<td>#include &lt;numeric&gt;</td>
+<td>Menyediakan fungsi-fungsi untuk operasi-operasi numerik pada rangkaian data.</td>
+</tr>
+<tr>
+<td>valarray</td>
+<td>#include &lt;valarray&gt;</td>
+<td>Menyediakan kelas valarray untuk operasi-operasi numerik pada array nilai.</td>
+</tr>
+<tr>
+<td>iterator</td>
+<td>#include &lt;iterator&gt;</td>
+<td>Menyediakan fasilitas untuk bekerja dengan iterator dalam STL (Standard Template Library).</td>
+</tr>
+<tr>
+<td>string</td>
+<td>#include &lt;string&gt;</td>
+<td>Menyediakan kelas string untuk bekerja dengan string.</td>
+</tr>
+<tr>
+<td>iomanip</td>
+<td>#include &lt;iomanip&gt;</td>
+<td>Menyediakan fungsi-fungsi untuk memanipulasi input/output (I/O) secara berformat.</td>
+</tr>
+<tr>
+<td>iostream</td>
+<td>#include &lt;iostream&gt;</td>
+<td>Menyediakan fungsi-fungsi untuk input/output (I/O) dasar.</td>
+</tr>
+<tr>
+<td>cstdlib</td>
+<td>#include &lt;cstdlib&gt;</td>
+<td>Menyediakan fungsi-fungsi utilitas umum, seperti pengelolaan memori, konversi angka, dan fungsi-fungsi lainnya.</td>
+</tr>
+<tr>
+<td>cmath</td>
+<td>#include &lt;cmath&gt;</td>
+<td>Menyediakan fungsi-fungsi matematika dasar, seperti sqrt, pow, sin, cos, dan lain-lain.</td>
+</tr>
+<tr>
+<td>ctime</td>
+<td>#include &lt;ctime&gt;</td>
+<td>Menyediakan fungsi-fungsi untuk bekerja dengan waktu dan tanggal.</td>
+</tr>
+<tr>
+<td>cassert</td>
+<td>#include &lt;cassert&gt;</td>
+<td>Menyediakan fasilitas untuk pengujian asersi.</td>
+</tr>
+<tr>
+<td>cstdio</td>
+<td>#include &lt;cstdio&gt;</td>
+<td>Menyediakan fungsi-fungsi untuk input/output (I/O) dalam gaya C.</td>
+</tr>
+</table>
+</body>
+</html>
